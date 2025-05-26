@@ -62,8 +62,16 @@ It uses a dropdown to select the month/year and displays a color-coded heatmap c
 ---
 
 ## 🚀 Installation & Usage
+Before starting, you can clone my source code from GitHub, as the zipped project is too large to upload directly.  
 
-1. **Install dependencies:**
+1. **Clone the repository:**
+
+  ```bash
+  git clone https://github.com/itshzlnust/room-utilization-dashboard.git
+  cd room-utilization-dashboard
+  ```
+
+2. **Install dependencies:**
 
 Open your terminal in the project directory and run:
 
@@ -72,12 +80,12 @@ npm install
 npm install d3
 ```
 
-2. **Add your data files:**
+3. **Add your data files:**
 
 - Place `room-utilization.json` (2015 data) and `room-utilization-2021.json` (2021 data) in the `public` folder.
 - Also add `healthdataviz-logo.png` to the `public` folder.
 
-3. **Start the development server:**
+4. **Start the development server:**
 
 ```bash
 npm start
@@ -85,7 +93,7 @@ npm start
 
 This will open the dashboard in your web browser.
 
-4. **Interact with the dashboard:**
+5. **Interact with the dashboard:**
 
 - Use the dropdown menu to select a month/year.
 - The heatmap calendar will update to show the selected data.
